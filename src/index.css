@@ -81,7 +81,16 @@ body {
 }
 
 /*  --- H O M E --- */
-div {
+.home {
   background: pink;
+  height: 100vh;
+  margin-top: -22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home h1 {
   
 }
