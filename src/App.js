@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css';
 import Home from  './components/Home'
 import Header from './components/Header';
-import { About } from './components/About';
+import About from './components/About';
 import Project from './components/Project';
 import ProjectGallery from './components/ProjectsGallery';
 import Contact from './components/Contact'

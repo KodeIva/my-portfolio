@@ -48,7 +48,6 @@ body {
 
 .socialLinks ul {
   display: flex;
-  background-color: cornflowerblue;
   margin: 10px 40px;
   list-style-type: none;
 }
@@ -69,11 +68,9 @@ body {
   display: block;
 }
 
-.socialLinks ul li a:hover  {
-  transform: scale(1.2);
-}
 
-@media screen and (min-width: 800px) {
+
+@media screen and (min-width: 900px) {
   .bars {
     display: none;
   }
@@ -86,8 +83,14 @@ body {
   height: 100vh;
   margin-top: -22px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  
+  justify-content: space-around;
   align-items: center;
 }
 
+
+@media screen and (min-width: 900px) {
+  .home {
+    flex-direction: column;
+  }
+}

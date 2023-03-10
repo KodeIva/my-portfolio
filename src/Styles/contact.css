@@ -1,0 +1,94 @@
+.contact {
+   background-color: m;
+   height: 70vh;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+ h1 {
+   color: #60BFC1;
+   font-size: 40px;
+   text-align: center;
+   padding-top: 10px;
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+   width: 400px;
+   margin-top: -120px;
+}
+
+input {
+   height: 50px;
+}
+
+input, textarea {
+   margin: 4px;
+   border: none;
+   text-indent: 10px;
+   outline: none;
+   font-size: 18px;
+   border-radius: 10px;
+   border: 2px solid #60BFC1;
+}
+
+.btn-send {
+   margin-top: 30px;
+   width: 250px;
+   border: none;
+   padding: 10px;
+   font-size: 25px;
+   align-self: center;
+   cursor: pointer;
+   background-color: #60BFC1;
+   color: white;
+   border-radius: 10px;
+}
+
+.btn-send:hover {
+  background-color: white;
+  color: #60BFC1;
+  font-weight: 600;
+  border: 2px solid #60BFC1;
+}
+
+.socialLinks {
+  margin-top: -350px;
+}
+
+.socialLinks ul {
+  display: flex;
+  margin: 10px 50px;
+  list-style-type: none;
+}
+
+.socialLinks ul a {
+  text-decoration: none;
+  color: #60BFC1;
+  padding: 45px 20px;
+  font-size: 50px;
+}
+
+.socialLinks ul li i:hover  {
+  transform: scale(1.2);
+  transition: .7s;
+}
+
+@media screen and (max-width: 900px) {
+ .contact {
+  flex-direction: column;
+ }
+form {
+  margin-top: -50px;
+}
+ .socialLinks {
+  margin-top: 50px;
+ }
+ .socialLinks ul a {
+  font-size: 30px;
+ }
+}
