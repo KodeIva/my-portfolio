@@ -7,6 +7,7 @@ import Project from './components/Project';
 import ProjectGallery from './components/ProjectsGallery';
 import Contact from './components/Contact'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import Footer from './components/Footer';
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
        <Route path='/my-portfolio/projectGallery' element={<ProjectGallery />} />
         <Route path='/my-portfolio/contact' element={<Contact />} />
      </Routes>
-    
+    <Footer />
   </BrowserRouter>
   </>
   );
