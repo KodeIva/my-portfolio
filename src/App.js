@@ -6,7 +6,7 @@ import About from './components/About';
 import Project from './components/Project';
 import ProjectGallery from './components/ProjectsGallery';
 import Contact from './components/Contact'
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import {HashRouter as Router, Routes, Route} from 'react-router-dom'
 import Footer from './components/Footer';
 
 function App() {
