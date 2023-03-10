@@ -24,7 +24,7 @@ body {
 }
 
 .nav {
-  background-color: orange;
+ 
   display: flex;  
   justify-content: space-evenly;
   align-items: center;
@@ -46,23 +46,7 @@ body {
   list-style-type: none;
 }
 
-.socialLinks ul {
-  display: flex;
-  margin: 10px 40px;
-  list-style-type: none;
-}
 
-.menuLinks ul a {
-  text-decoration: none;
-  padding: 5px 10px;
-  font-size: 25px;
-}
-
-.socialLinks ul a {
-  text-decoration: none;
-  padding: 5px 10px;
-  font-size: 25px;
-}
 
 .bars {
   display: block;
@@ -77,20 +61,4 @@ body {
   
 }
 
-/*  --- H O M E --- */
-.home {
-  background: pink;
-  height: 100vh;
-  margin-top: -22px;
-  display: flex;
-  
-  justify-content: space-around;
-  align-items: center;
-}
 
-
-@media screen and (min-width: 900px) {
-  .home {
-    flex-direction: column;
-  }
-}
