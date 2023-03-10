@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.about {
+ width: 100%;
+ height: 80vh;
+   margin-top: 22px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #F7E3DB;
+}
+
+.about p {
+ background-color: white;
+ text-align: justify;
+ padding: 20px;
+ border-radius: 15px;
+ width: 600px;
+ font-family: 'Dancing Script', cursive;
+ font-size: 30px;
+ letter-spacing: 2px;
+}
+
+@media screen and (max-width: 700px) {
+ .about p {
+  width: 400px;
+  font-size: 25px;
+ }
+}
