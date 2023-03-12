@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Guess-the-number",
-    "image": "images/guessthenumber",
+    "image": "images/guessthenumber.jpg",
     "technologies": "HTML,CSS,JavaScript",
     "description": "This is a simple game where user is trying to guess the number. The  user can guess up to 10 times, after the tenth the computer is winning the game. ",
     "link": "https://kodeiva.github.io/Guess-the-number/"
