@@ -1,7 +1,8 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
+import '../Styles/header.css'
 
 export default function Header() {
+
   return(
    <nav className="nav">
     <div className="logo">
@@ -11,19 +12,16 @@ export default function Header() {
     </div>
     <div className="menu">
      <div className="menuLinks">
-       <ul>
-       <li> <Link to='/my-portfolio/'>Home</Link></li>
-       <li> <Link to='/my-portfolio/about'> About</Link></li>
-       <li> <Link to="/my-portfolio/project"> Project </Link> </li>
-       <li> <Link to="/my-portfolio/projectGallery">Project Gallery</Link></li>
-       <li> <Link to="/my-portfolio/contact">Contacts</Link></li>
+       <ul className="menuNav">
+       <li className="link"> <Link to='/my-portfolio/'>Home</Link></li>
+       <li className="link"> <Link to='/my-portfolio/about'> About</Link></li>
+       <li className="link"> <Link to="/my-portfolio/project"> Project </Link> </li>
+       <li className="link"> <Link to="/my-portfolio/contact">Contacts</Link></li>
      </ul>
      </div>
-  
      <div className="bars">
       <button className="fas fa-bars"></button>
      </div>
-    
    </div>
   </nav>
 

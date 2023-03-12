@@ -6,7 +6,7 @@ export default function Footer() {
  let currentYear = date.getFullYear()
  console.log(currentYear);
 
-  return(<div>
+  return(<div className='footer'>
    <h1 className='currentYear'> Copyright @ {currentYear} : CodeIva</h1>
   </div>
  

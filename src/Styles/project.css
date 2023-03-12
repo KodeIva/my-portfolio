@@ -1,0 +1,14 @@
+.projects {
+ height: auto;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
+.singleProject {
+ background-color: aquamarine;
+ width: 300px;
+ margin: 10px;
+}

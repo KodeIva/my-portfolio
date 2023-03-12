@@ -1,10 +1,14 @@
 .home {
   background: #FDB7B9;
   height: 80vh;
-  margin-top: 22px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.photo {
+  width: 60%;
+  height: auto;
 }
 
 .brand {
@@ -30,15 +34,18 @@
 @media screen and (max-width: 900px) {
   .home {
     flex-direction: column;
+    justify-content: center;
   }
-
+.photo {
+ width: 50% ;
+}
 .brand {
-
   font-size: 50px;
-
 }
 .statement, .statement1 {
   font-size: 20px;
-
+}
+.statement1 {
+ text-indent: 90px;
 }
 }

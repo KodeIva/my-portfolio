@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "BMI Calculator",
+    "image": "images/bmicalculator.jpg",
+    "technologies": "HTML,CSS,JavaScript",
+    "description": "This application shows if the user has healthy weight. The app calculates the body mass index(BMI) based on the user's weight and height.",
+    "link": "https://kodeiva.github.io/BMI-Calculator/"
+  },
+  {
+    "id": 2,
+    "name": "Guess-the-number",
+    "image": "images/guessthenumber",
+    "technologies": "HTML,CSS,JavaScript",
+    "description": "This is a simple game where user is trying to guess the number. The  user can guess up to 10 times, after the tenth the computer is winning the game. ",
+    "link": "https://kodeiva.github.io/Guess-the-number/"
+  },
+    {
+    "id": 3,
+    "name": "Arcade",
+    "image": "images/arcade.jpg",
+    "technologies": "HTML,CSS",
+    "description": "This is an example desing of a magazine article. ",
+    "link": "https://codepen.io/Iva-19/pen/xxqvOoj"
+  },
+      {
+    "id": 4,
+    "name": "Cascade Cafe",
+    "image": "images/cascade-cafe.jpg",
+    "technologies": "HTML,CSS",
+    "description": "This is an example desing of a coffee shop menu page. ",
+    "link": "https://codepen.io/Iva-19/pen/ExmPNmm"
+  },
+        {
+    "id": 5,
+    "name": "Weather App",
+    "image": "images/weather-app.jpg",
+    "technologies": "HTML,CSS,JavaScript",
+    "description": "This is an app providing weather forecast when user enter city name. It also saving the searched cities ",
+    "link": "https://kodeiva.github.io/Weather-Dashboard/"
+  },
+        {
+    "id": 6,
+    "name": "Survey",
+    "image": "images/survey.jpg",
+    "technologies": "HTML,CSS",
+    "description": "This is a simple desing of a hotel customer experience survey form.",
+    "link": "https://codepen.io/Iva-19/pen/zYqLMQJ"
+  }
+]
