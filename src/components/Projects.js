@@ -1,6 +1,6 @@
 import React from 'react'
 import projects from './../projects.json'
-import '../Styles/project.css'
+import '../Styles/projects.css'
 
 export default function Project () {
  console.log(projects);

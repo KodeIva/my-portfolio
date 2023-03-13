@@ -15,7 +15,7 @@ export default function Header() {
        <ul className="menuNav">
        <li className="link"> <Link to='/my-portfolio/'>Home</Link></li>
        <li className="link"> <Link to='/my-portfolio/about'> About</Link></li>
-       <li className="link"> <Link to="/my-portfolio/project"> Project </Link> </li>
+       <li className="link"> <Link to="/my-portfolio/projects"> Projects </Link> </li>
        <li className="link"> <Link to="/my-portfolio/contact">Contacts</Link></li>
      </ul>
      </div>
