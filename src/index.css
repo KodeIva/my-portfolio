@@ -13,10 +13,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.bg-salmon {
-  background-color: salmon;
-  color: white;
-}
 
 body {
   background-color: aliceblue;
@@ -30,10 +26,11 @@ body {
   justify-content: space-evenly;
   align-items: center;
   height: 10vh;
+  margin: 15px 0;
 }
 
 .logo {
-  color: rgb(31, 31, 199);
+  color: rgba(46,91,173,0.6);;
   margin: 5px 40px;
   font-size: 40px;
   letter-spacing: 2px;
@@ -58,8 +55,7 @@ body {
 
 .menuLinks ul li a {
   text-decoration: none;
-  color: white;
-  text-shadow:  2px 4px 4px rgba(5, 43, 114, 0.6);
+  color: rgba(46,91,173,0.6);
   padding: 0 5px;
 }
 
@@ -67,7 +63,6 @@ body {
   transition: .3s;
   border-left: 3px solid rgba(5, 43, 114, 0.6);
   border-right:3px solid rgba(5, 43, 114, 0.6);
-
 }
 
 .bars {
@@ -90,12 +85,16 @@ body {
 
 
 @media screen and (max-width: 900px) {
-  .nav {
-    flex-direction: column;
+.nav {
+  flex-direction: column;
+  justify-content: center;
   }
-  .menuLinks ul li a {
-    margin: 5px 5px;
-  padding: 0 0px;
+  logo {
+    margin: 10px;
+  }
+  .menuLinks ul li   {
+    margin: 0px 0px;
+    
 }
 
 

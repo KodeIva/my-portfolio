@@ -19,9 +19,6 @@ export default function Header() {
        <li className="link"> <Link to="/my-portfolio/contact">Contacts</Link></li>
      </ul>
      </div>
-     <div className="bars">
-      <button className="fas fa-bars"></button>
-     </div>
    </div>
   </nav>
 
