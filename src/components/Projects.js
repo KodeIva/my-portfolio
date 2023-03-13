@@ -8,14 +8,19 @@ export default function Project () {
   <>
    <section className="projects">
     {projects.map((project,id) => {
-      const {image,name,technologies,link,description} = project 
+      const {image,name,technologies,code,link,description} = project 
      return (
        <div className="singleProject" key={id}>
-     <img src={image} alt={name} />
-     <h2>{name}</h2>
-     <h3>{technologies}</h3>
-     <p>Check the codes  <a href={link}>here</a></p>
-     <p>{description}</p>
+       <div className="image">
+        <img src={image} alt={name} />
+       </div>
+      <div className="projectDetails">
+        <h2>{name}</h2>
+        <h4>{technologies}</h4>
+        <p>Check the codes <a href={code}>here</a> </p>
+        <p>See it <a href={link}>live</a> </p>
+        <p>{description}</p>
+      </div> 
     </div>
      )
     })}

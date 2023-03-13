@@ -33,11 +33,11 @@ export default function Contact() {
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/KaradjovaIva" aria-hidden="true" target="_blanc" rel="noopener noreferrer">
+          <a href="https://twitter.com/KaradjovaIva" aria-hidden="true" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-twitter" ></i>
           </a>
         </li>
-        <li><a href="https://codepen.io/Iva-19" aria-hidden="true" rel="noopener noreferrer"target="_blank">
+        <li><a href="https://codepen.io/Iva-19" aria-hidden="true" rel="noopener noreferrer" target="_blank">
          <i  className="fab fa-codepen" ></i>
         </a></li>
        </ul>
