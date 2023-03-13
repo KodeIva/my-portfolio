@@ -6,7 +6,7 @@ export default function Home() {
   return(
    <div className='home'>
     <div>
-      <img className='photo' src="https://cdn.pixabay.com/photo/2016/05/26/14/29/woman-1417267_960_720.png" width="400" alt="" />
+      <img className='photo' src="https://cdn.pixabay.com/photo/2016/05/26/14/29/woman-1417267_960_720.png"  alt="" />
     </div>
     <div>
      <h1 className='brand'>CodeIva</h1>
