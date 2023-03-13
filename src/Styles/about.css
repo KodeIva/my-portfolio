@@ -1,29 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
-.about {
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.aboutMe {
  width: 100%;
- height: 80vh;
+ height: auto;
+ min-height: 80vh;
+ color: white;
+ display: flex;
+justify-content: center;
+align-items:flex-start;
+ background-color: rgb(19, 2, 49);
+}
+.aboutMe h1 {
+ color: white;
+ font-weight: 300;
+ font-size: 30px;
+}
+
+.about, .skills {
+ display: flex;
+ width: 40%;
+ flex-direction: column;
+}
+.about p {
+
+ color: #F7E3DB;
+ text-align: justify;
+ font-family: 'Poppins', sans-serif;
+ font-size: 20px;
+ font-weight: 300;
+ letter-spacing: 2px;
+}
+
+.skills p {
+ color: #F7E3DB;
  display: flex;
  justify-content: center;
  align-items: center;
- background-color: #F7E3DB;
-}
-
-.about p {
- background-color: white;
- text-align: justify;
- padding: 20px;
- border-radius: 15px;
- width: 600px;
- font-family: 'Dancing Script', cursive;
- font-size: 30px;
+ font-family: 'Poppins', sans-serif;
+ font-size: 20px;
+ font-weight: 300;
  letter-spacing: 2px;
 }
 
 @media screen and (max-width: 700px) {
- .about p {
-  width: 700px;
-  font-size: 25px;
-  margin: 20px;
+ .aboutMe {
+  flex-direction: column;
+  justify-content: center;
+ }
+ .about, .skills {
+  width: 95%;
+  margin: 0 5px;
+ }
+ .about p, .skills p {
+  font-size: 15px;
  }
 }
