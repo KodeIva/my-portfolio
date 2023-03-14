@@ -7,9 +7,14 @@ export default function Project () {
  return (
   <>
    <section className="projects">
+    <h1>My Projects</h1>
+   
+  <div className="projectsDiv">
+    
     {projects.map((project,id) => {
       const {image,name,technologies,code,link,description} = project 
      return (
+     
        <div className="singleProject" key={id}>
        <div className="image">
         <img src={image} alt={name} />
@@ -22,8 +27,10 @@ export default function Project () {
         <p>{description}</p>
       </div> 
     </div>
+  
      )
     })}
+      </div>
    </section>
   </>
  )
