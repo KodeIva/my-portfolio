@@ -3,9 +3,12 @@ import  '../Styles/contact.css'
 
 export default function Contact() {
  return (<>
-  <h1>Get in Touch</h1>
+ 
    <section className="contact">
-    
+   <div className="title">
+     <h1>Get in Touch</h1>
+   </div>
+  
     <form action="https://formspree.io/f/mvolnddd" method="POST">
        <input type="text" name="Name" placeholder="Full Name" required/>
        <input type="email" name="Email" placeholder="Email" required/>
@@ -41,7 +44,7 @@ export default function Contact() {
          <i  className="fab fa-codepen" ></i>
         </a></li>
        </ul>
-     </div> 
+     </div>
   </section> 
 </>    
  )

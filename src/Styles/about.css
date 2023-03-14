@@ -26,7 +26,6 @@ align-items:flex-start;
  flex-direction: column;
 }
 .about p {
- color: #F7E3DB;
  text-align: justify;
  font-family: 'Poppins', sans-serif;
  font-size: 20px;
@@ -35,7 +34,6 @@ align-items:flex-start;
 }
 
 .skills p {
- color: white;
  display: flex;
  justify-content: center;
  align-items: center;

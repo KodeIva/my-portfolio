@@ -38,6 +38,13 @@ body {
   font-family: 'Noto Serif JP', serif;
 }
 
+ h1 {
+  color: #60BFC1;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 10px;
+}
+
 .menuLinks ul  {
   display: flex;
   align-items: center;
@@ -68,7 +75,6 @@ body {
 .bars {
   display: block;  
 }
-
 
 .fas {
   width: 40px;
