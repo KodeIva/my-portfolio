@@ -3,6 +3,7 @@
 ## Table of content
   - [Description](#description) 
   - [Screenshot](#screenshot) 
+  - [Links](#links)
   - [Installation](#installation)
   - [Tests](#tests)
   - [License](#license)
@@ -11,10 +12,15 @@
 ## Description
   This is my React portfolio. The project I am using React, JavaScript and CSS. In the project section I have added some of my applications to demonstrate my the skills.
 
-## Screenshots
+## Screenshot
  
 ![](./public/images/screenshot.jpg)
 
+
+## Links
+
+- Solution URL: [Solution URL here](https://github.com/KodeIva/my-portfolio)
+- Live Site URL: [Live site URL here](https://kodeiva.github.io/my-portfolio/#/my-portfolio/)
 
 
 ## Installations
