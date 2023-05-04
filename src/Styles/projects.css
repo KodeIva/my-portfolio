@@ -23,9 +23,9 @@
  font-size: 30px;
 }
 
-.singleProject {
+div.singleProject {
  background-color: aliceblue;
- width: 350px;
+ width: 300px;
  height: 500px;
  margin: 20px;
  line-height: 20px;
@@ -36,7 +36,7 @@
  display: flex;
  justify-content: center;
  background-color: pink;
- width: 350px;
+ width: 300px;
  height: 230px;
 }
 

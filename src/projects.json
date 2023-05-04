@@ -46,11 +46,11 @@
   },
         {
     "id": 6,
-    "name": "Survey",
-    "image": "images/survey.jpg",
-    "technologies": "HTML | CSS",
-    "description": "This is a simple desing of a hotel customer experience survey form.",
-    "code": "https://codepen.io/Iva-19/pen/zYqLMQJ",
-    "link": "https://codepen.io/Iva-19/pen/zYqLMQJ"
+    "name": "Spring Gallery",
+    "image": "images/gallery.jpg",
+    "technologies": "React| JavaScript | Tailwind",
+    "description": "This is a simple image gallery build with React and Tailwind.",
+    "code": "https://github.com/KodeIva/React-image-slider",
+    "link": "https://kodeiva.github.io/React-image-slider/"
   }
 ]
