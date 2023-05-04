@@ -48,7 +48,7 @@
     "id": 6,
     "name": "Spring Gallery",
     "image": "images/gallery.jpg",
-    "technologies": "React| JavaScript | Tailwind",
+    "technologies": "React | JavaScript | Tailwind",
     "description": "This is a simple image gallery build with React and Tailwind.",
     "code": "https://github.com/KodeIva/React-image-slider",
     "link": "https://kodeiva.github.io/React-image-slider/"

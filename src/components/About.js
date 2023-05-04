@@ -16,6 +16,7 @@ export default function About() {
       <p>&#x2022; JavaScript</p>
       <p>&#x2022; React</p>
       <p>&#x2022; jQuery</p>
+      <p>&#x2022; Tailwind</p>
       <p>&#x2022; Bootstrap</p>
       <p>&#x2022; Git / GitHub</p>  
   </div>
