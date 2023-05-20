@@ -17,25 +17,25 @@
     "code" : "https://github.com/KodeIva/Guess-the-number",
     "link": "https://kodeiva.github.io/Guess-the-number/"
   },
-    {
+  {
     "id": 3,
-    "name": "Arcade",
-    "image": "images/arcade.jpg",
-    "technologies": "HTML | CSS",
-    "description": "This is an example desing of a magazine article. ",
-    "code": "https://codepen.io/Iva-19/pen/xxqvOoj",
-    "link": "https://codepen.io/Iva-19/pen/xxqvOoj"
+    "name": "Password Generator",
+    "image": "images/password-generator.jpg",
+    "technologies": "HTML | CSS | JavaScript",
+    "description": "This application generates random password. By clicking on \"Generate Password\" button, options of different types of symbols will be given. The user can decide what symbols likes to include. ",
+    "code": "https://github.com/KodeIva/Password-Generator",
+    "link": "https://kodeiva.github.io/Password-Generator/"
   },
-      {
+  {
     "id": 4,
-    "name": "Cascade Cafe",
-    "image": "images/cascade-cafe.jpg",
-    "technologies": "HTML | CSS",
-    "description": "This is an example desing of a coffee shop menu page. ",
-    "code": "https://codepen.io/Iva-19/pen/ExmPNmm",
-    "link": "https://codepen.io/Iva-19/pen/ExmPNmm"
+    "name": "Spring Gallery",
+    "image": "images/gallery.jpg",
+    "technologies": "React | JavaScript | Tailwind",
+    "description": "This is a simple image gallery build with React and Tailwind.",
+    "code": "https://github.com/KodeIva/React-image-slider",
+    "link": "https://kodeiva.github.io/React-image-slider/"
   },
-        {
+  {
     "id": 5,
     "name": "Weather App",
     "image": "images/weather-app.jpg",
@@ -44,13 +44,23 @@
     "code": "https://github.com/KodeIva/Weather-Dashboard",
     "link": "https://kodeiva.github.io/Weather-Dashboard/"
   },
-        {
+  {
     "id": 6,
-    "name": "Spring Gallery",
-    "image": "images/gallery.jpg",
-    "technologies": "React | JavaScript | Tailwind",
-    "description": "This is a simple image gallery build with React and Tailwind.",
-    "code": "https://github.com/KodeIva/React-image-slider",
-    "link": "https://kodeiva.github.io/React-image-slider/"
+    "name": "Arcade",
+    "image": "images/arcade.jpg",
+    "technologies": "HTML | CSS",
+    "description": "This is an example desing of a magazine article. ",
+    "code": "https://codepen.io/Iva-19/pen/xxqvOoj",
+    "link": "https://codepen.io/Iva-19/pen/xxqvOoj"
+  },
+  {
+    "id": 7,
+    "name": "Cascade Cafe",
+    "image": "images/cascade-cafe.jpg",
+    "technologies": "HTML | CSS",
+    "description": "This is an example desing of a coffee shop menu page. ",
+    "code": "https://codepen.io/Iva-19/pen/ExmPNmm",
+    "link": "https://codepen.io/Iva-19/pen/ExmPNmm"
   }
+
 ]
